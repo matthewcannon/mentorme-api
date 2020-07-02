@@ -2,7 +2,6 @@ version: 0.2
 phases:
   install:
     commands:
-      # Install all dependencies (including dependencies for running tests)
       - npm install
   pre_build:
     commands:
