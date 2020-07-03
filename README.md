@@ -2,7 +2,7 @@
 
 At a command line :-
 
-1. Use cURL to send POST new Mentor records to the API endpoint.
+1. Use cURL to POST new Mentor records to the API endpoint.
 
         $ ENDPOINT=<paste-your-endpoint-here>
         $ curl -d '{"id":"1A2B", "firstName":"Adam", "lastName":"West"}' -H "Content-Type: application/json" -X POST $ENDPOINT
